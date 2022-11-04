@@ -1,4 +1,4 @@
-const Message1 = require('../models/chats')
+const Message1 = require('../models/message')
 const User = require('../models/user')
 
 exports.userMessage = (req,res)=>{
