@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Login</title>
     <link rel="stylesheet" href="loginSign.css">
     <script src="loginSign.css"></script>
 </head>
@@ -18,21 +18,18 @@
 
               </div>
                 <div class="signup-details">
-                <h1>Sign Up</h1>
+                <h1>Login</h1>
                 <br>
                 <br>
-                <form  onsubmit="signup(event)">
+                <form  onsubmit="login(event)">
 
-                <input type="name" name="name" placeholder="Name" required/>
 
                 <input type="email" name="email" placeholder="Email" required/>
 
+                <input type="password" name="password" placeholder="Confirm Password" required/><br>
 
-                <input type="phoneNumber" name="phoneNumber" placeholder="Phone Number" required/>
-
-                <input type="password" name="password" placeholder="confirm Password" required/><br>
-
-                <button id="signup-btn">SignUp</button>
+                <button id="signup-btn">login</button><br><br>
+                <p>Don't have Account?<a href="./loginSign.html" class="signup">sign up</a></p>
                 </form>  
             </div>
            </section>

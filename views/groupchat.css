@@ -1,25 +1,87 @@
 body{
-    background-image: url(https://images.unsplash.com/photo-1590959651373-a3db0f38a961?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80);
+  background-color: aqua;
     background-size: cover;
 }
-
 h1{
-   color:#FFD1D1;
-   text-align: center;
+   text-align: left;
 }
-
 form{
-   text-align: center;
+   text-align: left;
 }
-
 input{
    background:none ;
-   width: 150px;
-   height: 20px;
+   width: 200px;
+   height: 23px;
 }
-
 #group-message{
   color: antiquewhite;
-  margin: 30px 150px;
+  margin: 30px 300px;
   border: 5px solid pink;
 }
+
+#message{
+   color:antiquewhite;
+   border: 5px solid yellowgreen;
+   margin: 30px 150px;
+   top: 10px;
+}
+
+#showAddUser
+{
+   color: bisque;
+   border: 5px solid plum;
+   margin: 30px 150px;
+}
+
+button{
+    color: red;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  .time-left {
+    float: left;
+    color: #999;
+  }
